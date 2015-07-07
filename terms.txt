@@ -1,0 +1,15 @@
+Conceptual Overview, and terms
+Template - Html with additional markup
+Directives - A tool to extend HTML with custom attributes and elements
+Model - That data shown to the user in the view and the data the user interacts with
+Scope - Context where the model is stores so that our controllers, directives, and expressions can access it
+Expressions - Access variables and functions from the scope
+Compiler - Parses the template and instantiates directives and expressions
+Filter - Formats the value of an expression for display to the user
+View - What the user sees
+Data binding - syncing data between the model and view
+Controller - Like our rails controllers, the intermediary and the logic behind the views
+Dependency Injection - Creats and wires up objects and functions
+Injector - Dependency injection container
+Module - A container for the different parts of an app including controllers, services, filters, and directives which configures the injector
+Service - Reusable business logic. This is like a module in Ruby
