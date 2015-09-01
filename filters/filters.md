@@ -1,0 +1,2 @@
+# Filters
+- Filters are a simple but powerful tool in Angular, used primarily to format expressions in bindings in views and templates. This is somewhat similar to react.js componentization techniques, and allow you to write custom views. 
